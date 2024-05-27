@@ -1,10 +1,10 @@
 import React, {useLayoutEffect, useState} from 'react';
-import FormList from './components/mainList/FormList'
+import CreatePostPage from './pages/createPosPage/CreatePostPage';
 
 const App = () => {
  return (
      <div>
-      <FormList/>
+        <CreatePostPage/>
      </div>
  )
 };
