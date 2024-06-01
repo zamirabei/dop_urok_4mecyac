@@ -1,12 +1,14 @@
 import React, {useLayoutEffect, useState} from 'react';
-import CreatePostPage from './pages/createPosPage/CreatePostPage';
+import PostsPages from "./pages/postsPages/PostsPages";
+import './app1.css'
 
-const App = () => {
- return (
-     <div>
-        <CreatePostPage/>
-     </div>
- )
-};
+
+function App () {
+    return (
+        <div className="App">
+            <PostsPages/>
+        </div>
+    )
+}
 
 export default App;

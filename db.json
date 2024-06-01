@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "title": "Anna",
+      "body": "dasdasdasd sadasd",
+      "id": "62ed"
+    },
+    {
+      "title": "fetch",
+      "body": "fetch2",
+      "id": "1450"
+    },
+    {
+      "title": "test2",
+      "body": "12345fc",
+      "id": "288a"
+    },
+    {
+      "title": "test-fetch",
+      "body": "123",
+      "id": "2dcc"
+    },
+    {
+      "title": "test-axi",
+      "body": "123",
+      "id": "3196"
+    }
+  ]
+}
