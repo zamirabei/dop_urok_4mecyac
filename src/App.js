@@ -1,19 +1,13 @@
 import React from 'react';
-import About from "./components/about/About";
-import Main from "./components/main/Main";
-import Reff from "./pages1/ref/Reff";
-import ModalProvider from "./pages1/context/ModalProvider";
+import Pages from "./pages/Pages";
+import './app1.css';
 
 
 const App = () => {
 
     return (
         <div>
-            <ModalProvider>
-                <About/>
-                <Main/>
-            </ModalProvider>
-            <Reff/>
+            <Pages/>
         </div>
     );
 };
